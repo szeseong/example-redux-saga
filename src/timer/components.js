@@ -24,7 +24,7 @@ export const Timer = (
       </button>
       <button
         disabled={state.status === 'Stopped'}
-        onClick={stop}>
+        onClick={() => stop()}>
         Stop
       </button>
     </div>

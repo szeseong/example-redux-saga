@@ -16,4 +16,3 @@ export default (state = INITIAL_STATE, action = null) => {
       return state;
   }
 };
-
